@@ -6,3 +6,5 @@ const path = require('path') //permite importar un archivo y ejecuta dad lógica
 const filePath = path.join('/public', 'dist', 'styles', 'main.css')
 console.log(filePath)
 console.log(path.basename(filePath)) //basename da el archivo al final de la ruta
+console.log(path.parse(filePath))
+console.log(path.resolve('dist'))//ayuda a completar el path
