@@ -19,7 +19,7 @@ console.log(substract(10, 20))
 console.log(multiply(10, 20))
 console.log(divide(10, 20)) */
 
-module.exports = {
+export   {
     add,
     substract,
     multiply,
